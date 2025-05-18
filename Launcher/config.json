@@ -6,10 +6,10 @@
   // two predefined environments, 'backtesting' and 'live', feel free
   // to add more!
 
-  "environment": "backtesting", // "live-paper", "backtesting", "live-interactive", "live-interactive-iqfeed"
+  "environment": "live-binance", //"live-binance", // "live-paper", "backtesting", "live-interactive", "live-interactive-iqfeed"
 
   // algorithm class selector
-  "algorithm-type-name": "BasicTemplateFrameworkAlgorithm",
+  "algorithm-type-name": "BinanceMovingAverageCrossover",
 
   // Algorithm language selector - options CSharp, Python
   "algorithm-language": "CSharp",
@@ -69,8 +69,8 @@
   "reserved-words-prefix": "@",
 
   // To get your api access token go to quantconnect.com/account
-  "job-user-id": "0",
-  "api-access-token": "",
+  "job-user-id": "49040",
+  "api-access-token": "763243f3dccffc3ae0ee79249f34042f80d808ea773db981351c0de008ac2803",
   "job-organization-id": "",
 
   // live data configuration
@@ -82,9 +82,9 @@
   "live-holdings": "[]",
 
   // interactive brokers configuration
-  "ib-account": "",
-  "ib-user-name": "",
-  "ib-password": "",
+  "ib-account": "U1246078",
+  "ib-user-name": "agad1212",
+  "ib-password": "Hay1024",
   "ib-host": "127.0.0.1",
   "ib-port": "4002",
   "ib-agent-description": "Individual",
@@ -128,8 +128,8 @@
   "bitfinex-api-key": "",
 
   // binance configuration
-  "binance-api-secret": "",
-  "binance-api-key": "",
+  "binance-api-secret": "Qv098AzwNBvqxxsc6ggyOCr81Kzoy4l6JDz9bFQlT8gRY9BVirJ9XZ0TiwqyWs5S",
+  "binance-api-key": "w0Xvi3NXZmYgZglfAUReM5xl6dkx5nAkENzrZtPIJ3wnlqUiCJPnwXcqjM6dueZL",
   // spot/margin
   "binance-api-url": "https://api.binance.com",
   "binance-websocket-url": "wss://stream.binance.com:9443/ws",
