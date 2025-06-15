@@ -67,6 +67,11 @@ namespace QuantConnect
         public const string HKD = "HKD";
 
         /// <summary>
+        /// QAR (Qatari riyal) currency string
+        /// </summary>
+        public const string QAR = "QAR";
+
+        /// <summary>
         /// JPY (Japanese yen) currency string
         /// </summary>
         public const string JPY = "JPY";
@@ -106,6 +111,7 @@ namespace QuantConnect
             {"NOK", "kr"},
             {"PLN", "zł"},
             {"SAR", "﷼"},
+            {QAR, "﷼"},
             {"SEK", "kr"},
             {"THB", "฿"},
             {"TRY", "₺"},
